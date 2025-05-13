@@ -35,6 +35,7 @@ public class Parctise1 {
             driver.findElement(By.linkText("Upload")).click();
 
             System.out.println("File uploaded successfully!");
+            System.out.println("Done");
         } finally {
             driver.quit();
         }
